@@ -6,7 +6,7 @@ const ContactListTableHead = () => {
               scope="col"
               className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
             >
-              Picture
+              
             </th>
             <th
               scope="col"
@@ -18,13 +18,13 @@ const ContactListTableHead = () => {
               scope="col"
               className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
             >
-              Location
+             Phone Number
             </th>
             <th
               scope="col"
               className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
             >
-              Phone Number
+              Email
             </th>
             <th
               scope="col"
