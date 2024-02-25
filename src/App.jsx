@@ -8,13 +8,14 @@ import AddCOntactBtn from "./components/Header/Tools/AddContactBtn";
 import Search from "./components/Header/Tools/Search";
 import LastSeenWrapper from "./components/Lastseen/LastseenWrapper";
 import ContactTable from "./components/ContactList/ContactListWrapper";
+import ContactProfile from "./components/Contact Profile/ContactProfile";
 
 
 function App() {
   return (
     <>
       <PageWrapper>
-        <Header>
+        {/* <Header>
           <HeaderTitle></HeaderTitle>
           <Tools>
             <Search></Search>
@@ -24,8 +25,9 @@ function App() {
         </Header>
 
         <LastSeenWrapper />
-        <ContactTable></ContactTable>
-      
+        <ContactTable></ContactTable> */}
+
+      <ContactProfile></ContactProfile>
       </PageWrapper>
     </>
   );
